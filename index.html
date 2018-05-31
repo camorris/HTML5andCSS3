@@ -314,12 +314,22 @@ Last name: <input type="text" name="LastName" value="Morris"><br>
 
 
 <p>The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
-
 </p>
 
 
 <img src="smiley.gif" alt="Smiley face" height="42" width="42">
 
+<p id="p1">Hello World!</p>
+<script src="demo_async.js" async></script>
+
+<p><strong>Note:</strong> The async attribute of the script tag is not supported in Internet Explorer 9 and earlier versions.</p>
+<p>
+	The async attribute is a boolean attribute.
+
+When present, it specifies that the script will be executed asynchronously as soon as it is available.
+
+Note: The async attribute is only for external scripts (and should only be used if the src attribute is present).
+</p>
 
 </body>
 </html>
