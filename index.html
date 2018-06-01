@@ -331,5 +331,19 @@ When present, it specifies that the script will be executed asynchronously as so
 Note: The async attribute is only for external scripts (and should only be used if the src attribute is present).
 </p>
 
+
+<form action="/action_page.php" method="get" autocomplete="on">
+	First name:<input type="text" name="fname"><br>
+	E-mail: <input type="email" name="email"><br>
+	<input type="submit">
+</form>
+<p>
+	The autocomplete attribute specifies whether a form or an input field should have autocomplete on or off.
+
+Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
+
+Tip: It is possible to have autocomplete "on" for the form, and "off" for specific input fields, or vice versa.
+</p>
+
 </body>
 </html>
