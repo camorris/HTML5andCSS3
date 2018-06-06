@@ -339,12 +339,14 @@ Note: The async attribute is only for external scripts (and should only be used 
 </form>
 <p>
 	The autocomplete attribute specifies whether a form or an input field should have autocomplete on or off.
-
-Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
-
-Tip: It is possible to have autocomplete "on" for the form, and "off" for specific input fields, or vice versa.
+Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.Tip: It is possible to have autocomplete "on" for the form, and "off" for specific input fields, or vice versa.
 </p>
 
+<p>
+	The autofocus attribute is a boolean attribute. When present, it specifies that the element should automatically get focus when the page loads.
+</p>
+
+<button type="button" autofocus onclick="alert('Hello world!')">Click Me!</button>
 
 </body>
 </html>
