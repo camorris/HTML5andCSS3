@@ -29,3 +29,35 @@ div {
   width: 50%;
   background-color: powderblue;
 }
+
+p{background-color:
+  Tomato;}
+p{background-color:Orange;}
+p{background-color:DodgerBlue;}
+p{background-color:MediumSeaGreen;}
+p{background-color:Gray;}
+p{background-color:SlateBlue;}
+p{background-color:Violet;}
+p{background-color:LightGray;}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
